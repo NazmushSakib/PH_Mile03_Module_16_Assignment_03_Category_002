@@ -1,100 +1,135 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nature's Platter </title>
-  <!--? google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-  <style>
-    .font-sora{
-      font-family: "Sora", serif;
-    }
-  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature's Platter</title>
+    <!--? google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-sora {
+        font-family: "Sora", serif;
+      }
+    </style>
 
-  <!-- font-awesome -->
-  <script src="https://kit.fontawesome.com/69628e32c7.js" crossorigin="anonymous"></script>
-  <!--? DaisyUI -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <!--? Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: "#da373d",
-            "primary-col": "#179800",
-            "slider-bg": "#fdf1ee",
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/69628e32c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--? DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--? Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "primary-col": "#179800",
+              "slider-bg": "#fdf1ee",
+            },
           },
         },
-      },
-    };
-  </script>
-</head>
-<body class="font-sora mx-auto">
-  <!--  */ -->
-  <header class=" bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]"> 
-    <nav class="md:container mx-auto my-4">
-      <div class="navbar ">
-        <div class="navbar-start">
-         
-          <a class="btn btn-ghost font-extrabold text-xl"><img class="" src="./c2-assets/logo-header.png" alt=""></a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Product</a></li>
-              <li><a>Services</a></li>
-              <li><a>Contact Us</a></li>
-          </ul>
-          
-        </div>
-        
-        <div class="navbar-end">
-          <div class="btn btn-ghost hidden sm:block space-x-5">
-            <a href="" class="text-xl"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="#" class="text-xl"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a class="btn btn-outline border border-primary-col  text-black">Login</a>
-            <a class="btn bg-primary-col  text-white">Register</a>
+      };
+    </script>
+  </head>
+  <body class="font-sora mx-auto">
+    <!--  */ -->
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+      <nav class="md:container mx-auto my-4">
+        <div class="navbar">
+          <div class="navbar-start">
+            <a class="btn btn-ghost font-extrabold text-xl"
+              ><img class="" src="./c2-assets/logo-header.png" alt=""
+            /></a>
           </div>
-          <!-- Hamberber Menu -->
-
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-primary-col">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
               <li><a>Product</a></li>
               <li><a>Services</a></li>
               <li><a>Contact Us</a></li>
             </ul>
           </div>
+
+          <div class="navbar-end">
+            <div class="btn btn-ghost hidden sm:block space-x-5">
+              <a href="" class="text-xl"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+              <a href="#" class="text-xl"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+              <a class="btn btn-outline border border-primary-col text-black"
+                >Login</a
+              >
+              <a class="btn bg-primary-col text-white">Register</a>
+            </div>
+            <!-- Hamberber Menu -->
+
+            <div class="dropdown">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden text-primary-col"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="pt-2 md:hidden">
+        <hr class="border border-green-200" />
+      </div>
+      <!-- ? banner section start -->
+      <div class="md:container mx-auto my-4 text-center">
+        <h2 class="text-6xl font-semibold">
+          Freshness <span class="text-primary-col">You Can <br />
+            Count</span> On, Prices You’ll Love!
+        </h2>
+        <p class="text-xl text-gray-700 py-8">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry <br> staples, we’ve got you covered every day!
+        </p>
+        <div class="text-center">
+          <img class="mx-auto h-auto" src="./c2-assets/hero-vegetables.png" alt="hero-vegetables" />
         </div>
       </div>
-    </nav>
-    <div class="pt-2 md:hidden ">
-      <hr class="border border-green-200">
-    </div>
-  </header>
-  <main></main>
-  <footer></footer>
-</body>
+      <!-- ? banner section end -->
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
