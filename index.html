@@ -44,8 +44,9 @@
       };
     </script>
   </head>
-  <body class="font-sora mx-auto">
+  <body class="font-sora">
     <!--  */ -->
+    <!--   -->
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
       <nav class="md:container mx-auto my-4">
         <div class="navbar">
@@ -100,11 +101,11 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-t z-[1] mt-3 w-50 p-2 shadow"
               >
-                <li><a>Product</a></li>
+                <!-- <li><a>Product</a></li>
                 <li><a>Services</a></li>
-                <li><a>Contact Us</a></li>
+                <li><a>Contact Us</a></li> -->
               </ul>
             </div>
           </div>
@@ -129,7 +130,42 @@
       </div>
       <!-- ? banner section end -->
     </header>
-    <main></main>
+    <main>
+      <!-- ? services section start -->
+      <section class="md:container mx-auto my-32">
+        <div><h1 class="text-4xl font-semibold text-primary-col pl-4 mb-12 ">Services</h1></div>
+        <!-- cards container -->
+        <div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 ">
+            <!-- Card 1 -->
+            <div class="bg-[#F3EEE7] p-12 rounded-2xl shadow-lg text-center space-y-5">
+                <img src="./c2-assets/service.png" alt="24/7 Services" class="mx-auto mb-4  bg-white  rounded-full 
+                 p-5">
+                <h3 class="font-bold text-lg">24/7 Services</h3>
+                <p class="text-gray-600 text-sm">Our delivery shop offers **24/7 services**, ensuring **fast, reliable, and seamless** deliveries anytime, providing **uninterrupted customer support and convenience** round the clock.</p>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="bg-[#F3EEE7] p-12 rounded-2xl shadow-lg text-center space-y-5">
+              <img src="./c2-assets/delivery.png" alt="24/7 Services" class="mx-auto mb-4  bg-white  rounded-full 
+               p-5">
+              <h3 class="font-bold text-lg">Fast Delivery</h3>
+              <p class="text-gray-600 text-sm">Need it now?  Our lightning-fast delivery gets your order to you in a flash.  Experience speed and convenience today!
+              </p>
+          </div>
+    
+            <!-- Card 3 -->
+            <div class="bg-[#F3EEE7] p-12 rounded-2xl shadow-lg text-center space-y-5">
+              <img src="./c2-assets/healthy.png" alt="24/7 Services" class="mx-auto mb-4  bg-white  rounded-full 
+               p-5">
+              <h3 class="font-bold text-lg">Healthy Products</h3>
+              <p class="text-gray-600 text-sm">Nourish your body with our healthy products.  Delivered fresh to your door, making healthy living easy.</p>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- ? services section end -->
+    </main>
     <footer></footer>
   </body>
 </html>
